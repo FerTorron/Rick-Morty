@@ -1,0 +1,48 @@
+.characterLi {
+  width: 300px;
+  height: 450px;
+  border: 2px solid #00aeff;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+}
+.characterLi h3 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.characterLi p {
+  margin-left: 10px;
+}
+
+.characterImg {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+}
+.characterImg img {
+  width: 100%;
+}
+.characterImg .idValue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00aeff;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 800;
+  border-bottom-right-radius: 10px;
+}
+.characterImg .statusValue {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #00af09;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 800;
+  border-top-left-radius: 10px;
+}
+.statusValueDead {
+  background-color: #f10000 !important;
+}
